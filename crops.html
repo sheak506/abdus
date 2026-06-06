@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenHarvest Farm - Crops</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-seedling me-2"></i>GreenHarvest Farm
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="crops.html">Crops</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="guides.html">Guides</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header py-5 bg-success text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 fw-bold">Our Crop Varieties</h1>
+                    <p class="lead">Discover our extensive collection of high-quality, sustainable crops</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Crop Categories -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12">
+                    <h2 class="fw-bold mb-3">Crop Categories</h2>
+                    <p class="lead text-muted">Choose from our diverse range of crop categories</p>
+                </div>
+            </div>
+            <div class="row g-4 mb-5">
+                <div class="col-md-3 col-sm-6">
+                    <div class="category-card text-center p-4 border rounded shadow-sm h-100">
+                        <i class="fas fa-apple-alt fa-3x text-success mb-3"></i>
+                        <h5>Vegetables</h5>
+                        <p class="text-muted">Fresh, nutritious vegetables for healthy living</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="category-card text-center p-4 border rounded shadow-sm h-100">
+                        <i class="fas fa-seedling fa-3x text-success mb-3"></i>
+                        <h5>Grains</h5>
+                        <p class="text-muted">Essential grains for food security and nutrition</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="category-card text-center p-4 border rounded shadow-sm h-100">
+                        <i class="fas fa-leaf fa-3x text-success mb-3"></i>
+                        <h5>Legumes</h5>
+                        <p class="text-muted">Protein-rich legumes for soil health and nutrition</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="category-card text-center p-4 border rounded shadow-sm h-100">
+                        <i class="fas fa-carrot fa-3x text-success mb-3"></i>
+                        <h5>Root Crops</h5>
+                        <p class="text-muted">Hardy root vegetables for year-round harvest</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Crop Listings -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12">
+                    <h2 class="fw-bold mb-3">Our Premium Crops</h2>
+                    <p class="lead text-muted">Detailed information about each crop variety</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- Tomatoes -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="https://images.pexels.com/photos/533346/pexels-photo-533346.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                             class="card-img-top" alt="Tomatoes">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-danger">Vegetables</span>
+                                <div class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <h5 class="card-title">Premium Tomatoes</h5>
+                            <p class="card-text">High-yield cherry and beefsteak tomatoes perfect for fresh consumption and processing.</p>
+                            <div class="crop-info mb-3">
+                                <small class="text-muted d-block"><i class="fas fa-calendar me-1"></i>Season: Summer</small>
+                                <small class="text-muted d-block"><i class="fas fa-clock me-1"></i>Duration: 90-120 days</small>
+                                <small class="text-muted d-block"><i class="fas fa-mountain me-1"></i>Soil: Well-drained, pH 6.0-6.8</small>
+                                <small class="text-success d-block"><i class="fas fa-tint me-1"></i>Water: Regular, deep watering</small>
+                            </div>
+                            <button class="btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#cropModal" 
+                                    onclick="showCropDetails('Tomatoes')">
+                                <i class="fas fa-info-circle me-1"></i>Care Tips
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sweet Corn -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                             class="card-img-top" alt="Sweet Corn">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-warning">Grains</span>
+                                <div class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <h5 class="card-title">Sweet Corn</h5>
+                            <p class="card-text">Premium sweet corn variety with excellent taste and high market value for fresh consumption.</p>
+                            <div class="crop-info mb-3">
+                                <small class="text-muted d-block"><i class="fas fa-calendar me-1"></i>Season: Summer</small>
+                                <small class="text-muted d-block"><i class="fas fa-clock me-1"></i>Duration: 75-90 days</small>
+                                <small class="text-muted d-block"><i class="fas fa-mountain me-1"></i>Soil: Rich, well-drained, pH 6.0-7.0</small>
+                                <small class="text-success d-block"><i class="fas fa-tint me-1"></i>Water: Consistent moisture</small>
+                            </div>
+                            <button class="btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#cropModal" 
+                                    onclick="showCropDetails('Sweet Corn')">
+                                <i class="fas fa-info-circle me-1"></i>Care Tips
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Winter Wheat -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="https://images.pexels.com/photos/1458694/pexels-photo-1458694.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                             class="card-img-top" alt="Winter Wheat">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-warning">Grains</span>
+                                <div class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <h5 class="card-title">Winter Wheat</h5>
+                            <p class="card-text">Hardy winter wheat variety with excellent protein content and high yield potential.</p>
+                            <div class="crop-info mb-3">
+                                <small class="text-muted d-block"><i class="fas fa-calendar me-1"></i>Season: Fall/Winter</small>
+                                <small class="text-muted d-block"><i class="fas fa-clock me-1"></i>Duration: 240-270 days</small>
+                                <small class="text-muted d-block"><i class="fas fa-mountain me-1"></i>Soil: Well-drained, pH 6.0-7.5</small>
+                                <small class="text-success d-block"><i class="fas fa-tint me-1"></i>Water: Moderate requirements</small>
+                            </div>
+                            <button class="btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#cropModal" 
+                                    onclick="showCropDetails('Winter Wheat')">
+                                <i class="fas fa-info-circle me-1"></i>Care Tips
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soybeans -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                             class="card-img-top" alt="Soybeans">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-info">Legumes</span>
+                                <div class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <h5 class="card-title">Soybeans</h5>
+                            <p class="card-text">High-protein soybeans ideal for both food and feed applications with nitrogen-fixing benefits.</p>
+                            <div class="crop-info mb-3">
+                                <small class="text-muted d-block"><i class="fas fa-calendar me-1"></i>Season: Spring/Summer</small>
+                                <small class="text-muted d-block"><i class="fas fa-clock me-1"></i>Duration: 100-130 days</small>
+                                <small class="text-muted d-block"><i class="fas fa-mountain me-1"></i>Soil: Well-drained, pH 6.0-7.0</small>
+                                <small class="text-success d-block"><i class="fas fa-tint me-1"></i>Water: Moderate to high</small>
+                            </div>
+                            <button class="btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#cropModal" 
+                                    onclick="showCropDetails('Soybeans')">
+                                <i class="fas fa-info-circle me-1"></i>Care Tips
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carrots -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                             class="card-img-top" alt="Carrots">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-secondary">Root Crops</span>
+                                <div class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <h5 class="card-title">Premium Carrots</h5>
+                            <p class="card-text">Sweet, crunchy carrots rich in beta-carotene and perfect for fresh market sales.</p>
+                            <div class="crop-info mb-3">
+                                <small class="text-muted d-block"><i class="fas fa-calendar me-1"></i>Season: Spring/Fall</small>
+                                <small class="text-muted d-block"><i class="fas fa-clock me-1"></i>Duration: 70-80 days</small>
+                                <small class="text-muted d-block"><i class="fas fa-mountain me-1"></i>Soil: Deep, loose, pH 6.0-6.8</small>
+                                <small class="text-success d-block"><i class="fas fa-tint me-1"></i>Water: Consistent moisture</small>
+                            </div>
+                            <button class="btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#cropModal" 
+                                    onclick="showCropDetails('Carrots')">
+                                <i class="fas fa-info-circle me-1"></i>Care Tips
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Potatoes -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="https://images.pexels.com/photos/144248/potatoes-vegetables-erdfrucht-bio-144248.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                             class="card-img-top" alt="Potatoes">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-secondary">Root Crops</span>
+                                <div class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <h5 class="card-title">Russet Potatoes</h5>
+                            <p class="card-text">High-quality russet potatoes perfect for baking, frying, and processing applications.</p>
+                            <div class="crop-info mb-3">
+                                <small class="text-muted d-block"><i class="fas fa-calendar me-1"></i>Season: Spring</small>
+                                <small class="text-muted d-block"><i class="fas fa-clock me-1"></i>Duration: 90-120 days</small>
+                                <small class="text-muted d-block"><i class="fas fa-mountain me-1"></i>Soil: Well-drained, pH 5.8-6.2</small>
+                                <small class="text-success d-block"><i class="fas fa-tint me-1"></i>Water: Regular, avoid overwatering</small>
+                            </div>
+                            <button class="btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#cropModal" 
+                                    onclick="showCropDetails('Potatoes')">
+                                <i class="fas fa-info-circle me-1"></i>Care Tips
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Crop Modal -->
+    <div class="modal fade" id="cropModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle">Crop Care Tips</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="modalContent">
+                        <!-- Content will be populated by JavaScript -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="guides.html" class="btn btn-success">View Detailed Guides</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">
+                        <i class="fas fa-seedling me-2"></i>GreenHarvest Farm
+                    </h5>
+                    <p class="mb-3">Committed to sustainable agriculture and supporting farmers with modern techniques and expert guidance.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-youtube fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white-50 text-decoration-none">Home</a></li>
+                        <li><a href="about.html" class="text-white-50 text-decoration-none">About</a></li>
+                        <li><a href="crops.html" class="text-white-50 text-decoration-none">Crops</a></li>
+                        <li><a href="guides.html" class="text-white-50 text-decoration-none">Guides</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold mb-3">Popular Crops</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="crops.html" class="text-white-50 text-decoration-none">Tomatoes</a></li>
+                        <li><a href="crops.html" class="text-white-50 text-decoration-none">Sweet Corn</a></li>
+                        <li><a href="crops.html" class="text-white-50 text-decoration-none">Winter Wheat</a></li>
+                        <li><a href="crops.html" class="text-white-50 text-decoration-none">Soybeans</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6 class="fw-bold mb-3">Contact Info</h6>
+                    <p class="mb-2"><i class="fas fa-map-marker-alt me-2"></i>123 Farm Road, Green Valley</p>
+                    <p class="mb-2"><i class="fas fa-phone me-2"></i>+1 (555) 123-FARM</p>
+                    <p class="mb-2"><i class="fas fa-envelope me-2"></i>info@greenharvest.com</p>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 GreenHarvest Farm. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white-50 text-decoration-none me-3">Privacy Policy</a>
+                    <a href="#" class="text-white-50 text-decoration-none">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
